@@ -17,20 +17,10 @@ DEPENDENCIES:
   - BigInt
   - KeychainSwift
   - MBProgressHUD
-  - OmiseGO (from `https://github.com/omisego/ios-sdk.git`, branch `naming-consistency`)
+  - OmiseGO
   - SkyFloatingLabelTextField
   - Toaster
   - TPKeyboardAvoiding
-
-EXTERNAL SOURCES:
-  OmiseGO:
-    :branch: naming-consistency
-    :git: https://github.com/omisego/ios-sdk.git
-
-CHECKOUT OPTIONS:
-  OmiseGO:
-    :commit: b656cc5c724dd044aaa09cc8ec9840708e268d5a
-    :git: https://github.com/omisego/ios-sdk.git
 
 SPEC CHECKSUMS:
   Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
@@ -44,6 +34,6 @@ SPEC CHECKSUMS:
   Toaster: a6c9532de1ded8105e77376f7dffeb2e12b46dbb
   TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
 
-PODFILE CHECKSUM: 5a6aa7bc0d40da84ce2fa6659fd61561e2c9a952
+PODFILE CHECKSUM: 7ec9cd0396d62425e5ab467c2c38a62a980d8251
 
 COCOAPODS: 1.4.0
